@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editTextFirstName" type="id" />
+    <item name="editTextLastName" type="id" />
+    <item name="editTextUsername" type="id" />
+    <item name="editTextPassword" type="id" />
+    <item name="buttonRegister" type="id" />
+    <item name="auto_complete" type="id" />
+</resources>

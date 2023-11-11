@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/registerScreen">
+
+    <fragment
+        android:id="@+id/registerScreen"
+        android:name="com.example.ogrencitoplulugu.RegisterScreen"
+        android:label="Register Screen"
+        tools:layout="@layout/fragment_register_screen" >
+        <action
+            android:id="@+id/action_registerScreen_to_welcomeScreen"
+            app:destination="@id/welcomeScreen" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/welcomeScreen"
+        android:name="com.example.ogrencitoplulugu.WelcomeScreen"
+        android:label="fragment_welcome_screen"
+        tools:layout="@layout/fragment_welcome_screen" />
+</navigation>
